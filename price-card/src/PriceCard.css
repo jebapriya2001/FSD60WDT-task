@@ -1,0 +1,45 @@
+.price-card {
+    background: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .price-card h3 {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .price-card h4 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  .price-card ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .price-card ul li {
+    margin: 10px 0;
+  }
+  
+  .price-card ul li.unavailable {
+    color: #c0c0c0;
+    text-decoration: line-through;
+  }
+  
+  .price-card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
